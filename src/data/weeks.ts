@@ -1,0 +1,58 @@
+import type { WeekMeta } from './types';
+
+export const WEEKS: WeekMeta[] = [
+  {
+    id: 1,
+    slug: 'week1',
+    title: 'Java Assignment',
+    subtitle: 'Core vs Advanced Java · Applets · Servlets · JDBC · ODBC · Cookies · Spring Boot',
+    topics: ['Core Java', 'Advanced Java', 'Applets', 'Servlets', 'JDBC', 'ODBC', 'Cookies', 'Sessions', 'Spring Boot'],
+    shortDesc: 'Comprehensive written assignment covering foundational concepts of Advanced Java including comparisons, features, and connectivity technologies.',
+    pdfUrl: '/records/week1.pdf',
+  },
+  {
+    id: 2,
+    slug: 'week2',
+    title: 'Installing & Configuring OpenJDK & Oracle JDK SE 26 on Ubuntu',
+    subtitle: 'JDK Installation · Environment Configuration · Ubuntu Linux',
+    topics: ['OpenJDK', 'Oracle JDK', 'Ubuntu', 'java -version', 'javac', 'Environment Variables'],
+    shortDesc: 'Download, install, and configure both OpenJDK and Oracle JDK SE 26 on Ubuntu, and verify the Java environment is correctly set up.',
+    pdfUrl: '/records/week2.pdf',
+  },
+  {
+    id: 3,
+    slug: 'week3',
+    title: 'JDBC with Microsoft Access Database using UCanAccess Driver',
+    subtitle: 'JDBC · UCanAccess · Microsoft Access · Ubuntu Terminal',
+    topics: ['JDBC', 'UCanAccess', 'Microsoft Access', 'DriverManager', 'Statement', 'ResultSet'],
+    shortDesc: 'Connect a Java application to a Microsoft Access database using the UCanAccess JDBC driver and retrieve records from a table.',
+    pdfUrl: '/records/week3.pdf',
+  },
+  {
+    id: 4,
+    slug: 'week4',
+    title: 'Java & MySQL Database Connections – Simple – Prepared – Callable – Three Execution Types',
+    subtitle: 'JDBC · MySQL · Statement · PreparedStatement · CallableStatement',
+    topics: ['JDBC', 'MySQL', 'Statement', 'PreparedStatement', 'CallableStatement', 'MySQL Connector/J'],
+    shortDesc: 'Establish Java–MySQL connectivity using JDBC and perform database operations using all three execution types.',
+    pdfUrl: '/records/week4.pdf',
+  },
+  {
+    id: 5,
+    slug: 'week5',
+    title: 'Java Application Connectivity with MySQL Database using JDBC in NetBeans',
+    subtitle: 'NetBeans IDE · WAMP Server · MySQL · JDBC Driver',
+    topics: ['NetBeans IDE', 'WAMP Server', 'MySQL', 'JDBC', 'JavaApplication26', 'MySQL Connector/J'],
+    shortDesc: 'Create a Java application in Apache NetBeans that connects to a MySQL database via JDBC and displays employee records.',
+    pdfUrl: '/records/week5.pdf',
+  },
+  {
+    id: 6,
+    slug: 'week6',
+    title: 'JDBC CRUD Operations using MySQL Database',
+    subtitle: 'PreparedStatement · CallableStatement · CRUD · Stored Procedures',
+    topics: ['JDBC', 'MySQL', 'PreparedStatement', 'CallableStatement', 'CRUD', 'Stored Procedures', 'NetBeans'],
+    shortDesc: 'Perform complete CRUD operations on a MySQL database using PreparedStatement and CallableStatement in Java.',
+    pdfUrl: '/records/week6.pdf',
+  },
+];
